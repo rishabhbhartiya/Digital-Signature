@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .signature {
+            color: #333;
+            max-width: 600px;
+            margin: auto;
+            padding: 10px;
+        }
+        .signature h2 {
+            margin: 0;
+            font-size: 24px;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .signature p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .signature a {
+            color: #1a0dab;
+            text-decoration: none;
+        }
+        .signature a:hover {
+            text-decoration: underline;
+        }
+        .signature .icons {
+            margin: 10px 0;
+        }
+        .signature .icons img {
+            margin-right: 15px;
+            vertical-align: middle;
+            width: 24px;
+            height: 24px;
+        }
+        .signature .contact-info {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            flex-wrap: wrap;
+        }
+        .signature .contact-info img {
+            margin-right: 10px;
+            width: 14px;
+            height: 14px;
+        }
+        .signature .resume-link a {
+            text-decoration: underline;
+            font-size: 16px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            width: 100%;
+            background: #333;
+            background-image: linear-gradient(to right, #ccc, #333, #ccc);
+            margin: 10px 0;
+        }
+        @media (max-width: 600px) {
+            .signature h2 {
+                font-size: 20px;
+            }
+            .signature p, .signature .contact-info {
+                font-size: 14px;
+            }
+            .signature .icons img {
+                width: 20px;
+                height: 20px;
+            }
+            .signature .contact-info img {
+                width: 12px;
+                height: 12px;
+            }
+        }
+        @media (max-width: 400px) {
+            .signature h2 {
+                font-size: 18px;
+            }
+            .signature p, .signature .contact-info {
+                font-size: 12px;
+            }
+            .signature .icons img {
+                width: 18px;
+                height: 18px;
+            }
+            .signature .contact-info img {
+                width: 10px;
+                height: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="signature">
+        <p>Best Regards,</p>
+        <h2>Rishabh</h2>
+        <hr style="margin-left: 0;">
+        <div class="contact-info">
+            <img src="https://img.icons8.com/ios-filled/24/000000/email.png" alt="Email">
+            <a href="mailto:Rishabhbhartiya854@gmail.com">rishabhbhartiya854@gmail.com</a>
+        </div>
+        <div class="contact-info">
+            <img src="https://img.icons8.com/ios-filled/24/000000/phone.png" alt="Phone">
+            <a href="tel:+91-8717901401">+91-8717901401</a>
+        </div>
+        <hr style="margin-left: 0;">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/24/000000/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/yourprofile" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/24/000000/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.yourportfoliolink.com" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/24/000000/domain.png" alt="Portfolio">
+            </a>
+        </div>
+        <hr style="margin-left: 0;">
+        <div class="resume-link">
+            <a href="https://www.yourcvlink.com" target="_blank">Get my Resume</a>
+        </div>
+    </div>
+</body>
+</html>
